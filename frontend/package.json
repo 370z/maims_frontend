@@ -1,0 +1,54 @@
+{
+  "name": "nuxtjs-dashboard",
+  "version": "1.0.0",
+  "description": "NuxtJs Dashboard",
+  "author": "Jimmy Jouanne",
+  "private": true,
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "dev": "nuxt --hostname 0.0.0.0 --port 3333",
+    "build": "nuxt build",
+    "start": "nuxt start --hostname 0.0.0.0 --port 3333",
+    "heroku-postbuild": "npm run build",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue,.ts --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@mdi/font": "^5.8.55",
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.12.3",
+    "@orbica/vue-form-wizard-2": "^1.6.3",
+    "@vue/cli": "^4.5.9",
+    "aedes": "^0.43.0",
+    "cache-manager-redis": "^0.6.0",
+    "core-js": "^3.8.1",
+    "http": "0.0.1-security",
+    "nuxt": "^2.14.9",
+    "nuxt-compress": "^4.1.0",
+    "nuxt-ssr-cache": "^1.5.2",
+    "nuxt-stripe-module": "^2.1.0",
+    "vue-chartist": "^2.3.1",
+    "vue-scrollmagic": "^1.2.0",
+    "vue-star-rating": "",
+    "vue-stripe-elements-plus": "",
+    "vuesax": "^4.0.1-alpha.25",
+    "vuetify": "^2.3.19",
+    "vuetify-loader": "^1.6.0",
+    "vuex-persist": "^3.1.3",
+    "vuex-persistedstate": "^4.0.0-beta.1",
+    "vuex-router-sync": "^5.0.0",
+    "websocket-stream": "^5.5.2"
+  },
+  "devDependencies": {
+    "@iconify-icons/heroicons-solid": "^1.1.0",
+    "@iconify/react": "^1.1.3",
+    "deepmerge": "^4.2.2",
+    "prettier": "^2.2.1",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^3.0.2"
+  }
+}

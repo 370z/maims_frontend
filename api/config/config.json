@@ -1,0 +1,23 @@
+{
+    "development": {
+        "username": "root",
+        "password": "itcmtc2020",
+        "database": "ifp_database",
+        "host": "maims.cmtc.ac.th",
+        "dialect": "mysql"
+    },
+    "test": {
+        "username": "root",
+        "password": "itcmtc2020",
+        "database": "ifp_database",
+        "host": "maims.cmtc.ac.th",
+        "dialect": "mysql"
+    },
+    "production": {
+        "username": "root",
+        "password": "itcmtc2020",
+        "database": "ifp_database",
+        "host": "maims.cmtc.ac.th",
+        "dialect": "mysql"
+    }
+}
